@@ -12,6 +12,9 @@ library(tidyverse)
 
 read litters dataset
 ```{r}
-litters_df=read.csv("./data/FAS_litters.csv")
+litters_df=read_csv("./data/FAS_litters.csv")
+head(litters_df)
+litters_df=janitor::clean_names(litters_df)
+tail(litters_df)
 ```
 
