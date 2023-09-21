@@ -17,4 +17,14 @@ head(litters_df)
 litters_df=janitor::clean_names(litters_df)
 tail(litters_df)
 ```
+#look at the data 
+```{r}
+head(litters_df)
+tail(litters_df)
+skimr::skim(litters_df)
+```
+```{r}
+litters_df=read_csv("./data/FAS_litters.csv")
+
+```
 
