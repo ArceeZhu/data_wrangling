@@ -6,6 +6,8 @@ output: github_document
 
 ```{r setup}
 library(tidyverse)
+library(readxl)
+library(haven)
 ```
 
 #read some data
@@ -23,8 +25,16 @@ head(litters_df)
 tail(litters_df)
 skimr::skim(litters_df)
 ```
-```{r}
-litters_df=read_csv("./data/FAS_litters.csv")
+```{r read datafile}
+mlb_df=read_xlsx("./data/mlb11.xlsx")
+mlb_df
+read_excel("./data/mlb11.xlsx", n_max=4)
 
+```
+
+# read sas
+```{r read sas}
+pulse_df=read_sas("./data/public_pulse_data.sas7bdat")
+pulse_df
 ```
 
