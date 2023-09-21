@@ -26,15 +26,20 @@ tail(litters_df)
 skimr::skim(litters_df)
 ```
 ```{r read datafile}
-mlb_df=read_xlsx("./data/mlb11.xlsx")
-mlb_df
-read_excel("./data/mlb11.xlsx", n_max=4)
 
+mlb_df=read_excel("./data/mlb11.xlsx", n_max=4)
+mlb_df
 ```
 
 # read sas
 ```{r read sas}
 pulse_df=read_sas("./data/public_pulse_data.sas7bdat")
 pulse_df
+```
+
+# exporting data
+```{r}
+
+write_csv(mlb_df, "./data/mlb_subtable.csv")
 ```
 

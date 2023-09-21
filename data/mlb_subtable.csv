@@ -1,0 +1,5 @@
+team,runs,at_bats,hits,homeruns,bat_avg,strikeouts,stolen_bases,wins,new_onbase,new_slug,new_obs
+Texas Rangers,855,5659,1599,210,0.283,930,143,96,0.34,0.46,0.8
+Boston Red Sox,875,5710,1600,203,0.28,1108,102,90,0.349,0.461,0.81
+Detroit Tigers,787,5563,1540,169,0.277,1143,49,95,0.34,0.434,0.773
+Kansas City Royals,730,5672,1560,129,0.275,1006,153,71,0.329,0.415,0.744
