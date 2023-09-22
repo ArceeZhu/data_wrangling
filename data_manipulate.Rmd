@@ -1,0 +1,9 @@
+---
+title: "data manipulate"
+date: Sep 21, 2023
+output: github_document
+---
+
+```{r setup}
+library(tidyverse)
+
